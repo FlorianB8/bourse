@@ -1,0 +1,27 @@
+header {
+    background-color: #0E7C7B;
+    color:white;
+}
+nav {
+    font-family: 'Chakra Petch', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.validation {
+    background-color:#D62246;
+    border-color: #D62246;
+    border-radius: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #0E7C7B;
+    color:white;
+}
