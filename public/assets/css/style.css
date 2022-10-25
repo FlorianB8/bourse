@@ -2,8 +2,27 @@ header {
     background-color: #0E7C7B;
     color:white;
 }
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 nav {
-    font-family: 'Chakra Petch', sans-serif;;
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: x-large;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
 }
 
 a {
@@ -11,17 +30,57 @@ a {
     color: white;
 }
 
+.inscription {
+    margin-top: 20px;
+    margin-right: 40px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: x-large;
+}
+
 .validation {
     background-color:#D62246;
     border-color: #D62246;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-left: 10px;
 }
 
-li {
-    list-style-type: none;
+main {
+    height: 70vh;
 }
 
 footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #0E7C7B;
     color:white;
+}
+
+footer>div>ul {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size :large;
+    text-align: center;
+}
+
+.multiLink {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    list-style-type: none;
+    font-size: medium;
+    text-align: start;
+    margin: 10px;
+}
+
+.socialNetwork {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialNetwork>img {
+    display: flex;
+    margin: 30px;
+    height: 35px;
+    width: 35px;
 }
