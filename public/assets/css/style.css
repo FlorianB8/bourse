@@ -8,9 +8,16 @@ width: 100%;
     display: flex;
     align-items: center;
 }
+
 .logoAmiens{ 
-    width: 150px; 
+    width: 150px;
+    margin-right: 20px;
 }
+
+.logoManu {
+    margin-right: 20px;
+}
+
 .lamanu{
     align-items: center;
     display: flex;
@@ -29,9 +36,20 @@ width: 100%;
 .introduction{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 /* 2eme partie du main */
+.reservation {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.reservation>p {
+    margin-top: 30px;
+    font-size: x-large;
+}
 .products{
     height: 170px;
 }
@@ -44,7 +62,9 @@ width: 100%;
 }
 /* 3eme partie du main */
 .contactInfo{
-    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,14 +73,156 @@ width: 100%;
     text-align: center;
 }
 .campus{
-    height: 450px;
+    width: 350px;
 }
 .map{
-    height: 450px;
+    width: 350px;
+    height: 300px;
 }
 h1{
     font-family: 'Chakra Petch', sans-serif;
 }
 p{
 font-family: 'Ubuntu Condensed', sans-serif;
+}
+/* Mise en page général */
+
+body {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #232522;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Mise en page du header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: #0E7C7B;
+    color:white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: x-large;
+    width: 80%;
+}
+
+.inscription, .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.navigation a:hover, .inscription a:hover {
+    color:#232522;
+}
+
+.validation {
+    background-color:#D62246;
+    border-color: #D62246;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Mise en page du body */
+
+main {
+    background-color: white;
+}
+
+
+
+
+/* Mise en page du footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E7C7B;
+    color:white;
+}
+
+footer>div>ul {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size :large;
+    text-align: center;
+}
+
+.multiLink {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    list-style-type: none;
+    font-size: medium;
+    text-align: start;
+    margin: 10px;
+}
+
+.socialNetwork {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialNetwork>img {
+    display: flex;
+    margin: 30px;
+    height: 35px;
+    width: 35px;
+}
+
+
+/* Partie troll */
+
+.troll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: xx-large;
+}
+
+.troll>img {
+    height: 250px;
+}
+
+.troll>p {
+    margin-bottom: 50px;
 }
