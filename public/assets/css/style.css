@@ -4,6 +4,8 @@ body {
     width: 80vw;
     margin-right: 10vw;
     margin-left: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: #232522;
 }
 
@@ -53,14 +55,15 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     width: 40%;
-
 }
+
 
 .validation {
     background-color:#D62246;
     border-color: #D62246;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
     font-family: 'Chakra Petch', sans-serif;
     font-size: x-large;
     color: white;
@@ -72,6 +75,8 @@ nav {
 
 main {
     height: 70vh;
+    width: 80wv;
+    background-color: white;
 }
 
 
