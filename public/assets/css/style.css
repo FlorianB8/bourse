@@ -74,9 +74,8 @@ nav {
 /* Mise en page du body */
 
 main {
-    height: 70vh;
-    width: 80wv;
     background-color: white;
+    height: 80vh;
 }
 
 
@@ -116,4 +115,26 @@ footer>div>ul {
     margin: 30px;
     height: 35px;
     width: 35px;
+}
+
+
+/* Partie troll */
+
+.troll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: xx-large;
+}
+
+.troll>img {
+    height: 250px;
+}
+
+.troll>p {
+    margin-bottom: 50px;
 }
