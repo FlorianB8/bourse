@@ -47,15 +47,30 @@
             </div>
         </div>
         <div class="reservation">
-            <p>Exemple de produit</p>
-            <div class="scroller">
-                <img class="products" src="/bourse/public/assets/img/pcportable.jpg" alt="pc portable">
-                <img class="products" src="/bourse/public/assets/img/tablette.jpg" alt="tablette">
-                <img class="products" src="/bourse/public/assets/img/imprimante.jpg" alt="imprimante">
-                <img class="products" src="/bourse/public/assets/img/console.jpg" alt="console">
-                <img class="products" src="/bourse/public/assets/img/telephone.jpg" alt="telephone">
-
+            <div class="productList">
+                <h2>Exemple de produit</h2>
+                <div class="scroller">
+                    <img class="products" src="/bourse/public/assets/img/pcportable.jpg" alt="pc portable">
+                    <img class="products" src="/bourse/public/assets/img/tablette.jpg" alt="tablette">
+                    <img class="products" src="/bourse/public/assets/img/imprimante.jpg" alt="imprimante">
+                    <img class="products" src="/bourse/public/assets/img/ps5.jpg" alt="console">
+                    <img class="products" src="/bourse/public/assets/img/telephone.jpg" alt="telephone">
+                </div>
             </div>
+            <div class="booking">
+                <h2>Réservation</h2>
+                <p>Réservé votre emplacement de vente</p>
+                <form method="post">
+                    <label for="nom"></label>
+                    <input class="field" type="text" name="nom" id="nom" placeholder="Nom">
+                    <label for="prenom"></label>
+                    <input class="field" type="text" name="prenom" id="prenom" placeholder="Prénom">
+                    <label for="telephone"></label>
+                    <input class="field" type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                    <input class="validation" type="submit" value="Réserver">
+                </form>
+            </div>
+            
         </div>
         <div class="contactInfo">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.4684054742497!2d2.2992816511538825!3d49.89000883536771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1666705752423!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -105,5 +120,6 @@
         </div>  
     </footer>
     <script type="text/javascript" src="./public/assets/js/script.js"></script>
+  
 </body>
 </html>

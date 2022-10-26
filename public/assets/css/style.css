@@ -21,6 +21,7 @@ width: 100%;
 .lamanu{
     align-items: center;
     display: flex;
+    padding-bottom: 50px;
 }
 .lamanu img{
     width: 150px;
@@ -40,31 +41,82 @@ width: 100%;
     margin-right: 50px;
 }
 /* 2eme partie du main */
+.field {
+    height: 30px;
+}
+.booking {
+    display: flex;
+    flex-direction: column;
+}
+.booking h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+form .validation {
+    display: flex;
+    font-size: large;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+form {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productList h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.booking p {
+    width: 100%;
+    text-align: center;
+
+}
 .reservation {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    background-color: #d4f4dd;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
 }
 
-.reservation>p {
+.reservation>h2 {
     margin-top: 30px;
     font-size: x-large;
+    font-family: 'Chakra Petch', sans-serif;
 }
 .products{
-    height: 170px;
+    width: 225px;
+    padding: 20px;
+
 }
 .scroller{
+    background-color: white;
     width: 590px;
-  height: 250px;
-  overflow-x: scroll;
-  scrollbar-width: thin;
-  display: flex;
+    height: 200px;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    display: flex;
+    border-radius: 10px;
 }
 /* 3eme partie du main */
 .contactInfo{
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 50px;
+    padding-top:50px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -226,3 +278,15 @@ footer>div>ul {
 .troll>p {
     margin-bottom: 50px;
 }
+
+
+/* Formulaire */
+
+input {
+    border-color: grey;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top:8px;
+}
+
+
