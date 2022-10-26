@@ -57,6 +57,9 @@ nav {
     width: 40%;
 }
 
+.navigation a:hover, .inscription a:hover {
+    color:#232522;
+}
 
 .validation {
     background-color:#D62246;
