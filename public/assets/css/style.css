@@ -1,0 +1,66 @@
+.title{
+text-align: center;
+color:#D62246;
+width: 100%;
+
+}
+.amiens{
+    display: flex;
+    align-items: center;
+}
+.logoAmiens{ 
+    width: 150px; 
+}
+.lamanu{
+    align-items: center;
+    display: flex;
+}
+.lamanu img{
+    width: 150px;
+}
+.lamanu p{
+    align-items: center;
+    font-size: 20px;
+}
+.amiens p{
+    align-items: center;
+    font-size: 20px;
+}
+.introduction{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+/* 2eme partie du main */
+.products{
+    height: 170px;
+}
+.scroller{
+    width: 590px;
+  height: 250px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  display: flex;
+}
+/* 3eme partie du main */
+.contactInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.placeAndDate{
+    text-align: center;
+}
+.campus{
+    height: 450px;
+}
+.map{
+    height: 450px;
+}
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+}
+p{
+font-family: 'Ubuntu Condensed', sans-serif;
+}
