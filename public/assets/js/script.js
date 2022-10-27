@@ -41,8 +41,7 @@ function foncContact() {
 document.getElementById("connection").addEventListener("click", foncConnection);
 
 function foncConnection() {
-    window.alert("Redirection vers un formulaire de connection")
-    document.location.href="oops.html"
+    document.location.href="connexion.html"
     };
 
 
@@ -54,14 +53,5 @@ function foncReturn() {
     document.location.href="index.html"
     };
 
-
-// Action sur bouton réservation 
-
-document.getElementById("reserveButton").addEventListener("click", foncReservation2);
-
-function foncReservation2() {
-    window.alert("Réservation si champs complets")
-    document.location.href="oops.html"
-    };
 
 

@@ -324,3 +324,28 @@ input {
 }
 
 
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.formConnect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin : 30px;
+    border: 2px  #0e7c7b solid;
+    border-radius: 20px;
+    background-color: #d4f4dd;
+    height: 400px;
+    width: 30%;
+}
+
+.formConnect>p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0;
+}
