@@ -1,26 +1,67 @@
-document.getElementById("reservation").addEventListener("click", myFunction);
+// Action nav réservation
 
-function myFunction() {
-window.alert("Redirection vers un formulaire de réservation")
-}
+document.getElementById("reservation").addEventListener("click", foncReservation);
+
+function foncReservation() {
+    window.alert("Redirection vers un formulaire de réservation")
+    };
 
 
-document.getElementById("inscription").addEventListener("click", myFunction2);
+// Action nav inscription
 
-function myFunction2() {
+document.getElementById("inscription").addEventListener("click", foncInscription);
+
+function foncInscription() {
     window.alert("Redirection vers un formulaire d'inscription")
-    }
+    };
 
 
-document.getElementById("connection").addEventListener("click", myFunction3);
+// Action nav blog
 
-function myFunction3() {
+document.getElementById("blog").addEventListener("click", foncBlog);
+
+function foncBlog() {   
+    window.alert("Redirection vers le blog")
+    document.location.href="oops.html"
+     };
+
+
+//  Action nav contact
+
+document.getElementById("contact").addEventListener("click", foncContact);
+
+function foncContact() {
+    window.alert("Redirection vers un formulaire de contact")
+    document.location.href="oops.html"
+    };
+
+
+// Action nav connexion 
+
+document.getElementById("connection").addEventListener("click", foncConnection);
+
+function foncConnection() {
     window.alert("Redirection vers un formulaire de connection")
     document.location.href="oops.html"
-    }
+    };
 
-document.getElementById("back").addEventListener("click", myFunction4);
 
-function myFunction4() {
+// Action revenir 
+
+document.getElementById("back").addEventListener("click", foncReturn);
+
+function foncReturn() {
     document.location.href="index.html"
-    }
+    };
+
+
+// Action sur bouton réservation 
+
+document.getElementById("reserveButton").addEventListener("click", foncReservation2);
+
+function foncReservation2() {
+    window.alert("Réservation si champs complets")
+    document.location.href="oops.html"
+    };
+
+
