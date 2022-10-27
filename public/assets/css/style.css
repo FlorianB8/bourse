@@ -165,7 +165,6 @@ font-family: 'Ubuntu Condensed', sans-serif;
 body {
     margin: 0;
     background-color: white;
-    height: 100vh;
 }
 
 a {
@@ -250,6 +249,7 @@ nav {
 /* Mise en page du body */
 
 main {
+    height: 100vh;
     background-color: white;
 }
 
