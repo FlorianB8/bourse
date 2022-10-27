@@ -1,1 +1,0 @@
-Pour la mise en place d’une bourse aux produits High Tech (Ordinateur, tablette, téléphone, imprimante, consoles, gaming gear, etc. … « la Mairie » demande la création d’un site éphémère pour la présentation, la réservation et les informations liés à l’évènement.
